@@ -1,14 +1,25 @@
-# Password Strength Checker
+# Password Security Policy Analyzer
 
-A Python-based tool to evaluate password strength using security best practices.
+## Description
+This project checks password strength based on
+basic security policies such as length, complexity,
+and character combinations.
 
-## Features
-- Checks password length
-- Uppercase & lowercase validation
-- Numbers & special characters check
-- Weak / Medium / Strong classification
-- Common password detection
+## Tools & Technologies
+- Python
+- String Manipulation
+- Security Best Practices
 
 ## How to Run
-```bash
-python3 checker.py
+1. Install Python
+2. Run: python password_checker.py
+
+## Security Concept
+Weak passwords are a common attack vector.
+This project demonstrates how password policies
+help prevent brute-force and credential attacks.
+
+## What I Learned
+- Importance of strong password policies
+- How password attacks work
+- Implementing basic security rules using Python
